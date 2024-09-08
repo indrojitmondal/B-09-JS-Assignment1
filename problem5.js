@@ -1,11 +1,11 @@
 // Monthly Savings of a Freelancer
 
-function taxing(payment){
-    let tmp=payment;
-    payment= (payment*20)/100;
-   const income = tmp-payment;
-   return income; 
-}
+// function taxing(payment){
+//     let tmp=payment;
+//     payment= (payment*20)/100;
+//    const income = tmp-payment;
+//    return income; 
+// }
 
 function monthlySavings(arr,living_Cost){
    if(!Array.isArray(arr)){
@@ -20,7 +20,14 @@ function monthlySavings(arr,living_Cost){
     for (const item of arr) {
         if(item>=3000)
         {
-            totalIncome+=taxing(item);
+
+            let itemTemp=item;
+            let tmp=itemTemp;
+        itemTemp= (itemTemp*20)/100;
+        const income = tmp-itemTemp;
+         
+
+            totalIncome+=income;
         }
         else
         totalIncome+=item;
@@ -33,7 +40,7 @@ function monthlySavings(arr,living_Cost){
      return savings;
 }
 
-const profit=[ 1000 , 2000 , 3000 ];
-const living_Cost=5400;
+const profit=[ 1000 , 2000 , 3000 ] ;
+const living_Cost= 5400 ;
 const output = monthlySavings(profit, living_Cost);
 console.log(output);
