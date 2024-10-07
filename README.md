@@ -1,17 +1,15 @@
 # Peddy Adoption 🐾
 
-Peddy Adoption is a web app that helps users find pets available for adoption. It allows users to view pet profiles, filter by category, and initiate the adoption process, all within a clean and responsive interface.
+Peddy Adoption is a web app that helps users find pets that are available for adoption. It allows users to view pet profiles, filter by category, and initiate the adoption process, all within a clean and responsive interface.
 
-![Peddy Adoption Screenshot](url_to_screenshot)  <!-- Add a relevant screenshot URL here -->
+![Peddy Adoption Screenshot](https://github.com/programming-hero-web-course2/b10a6-pet-adoption-indrojitmondal/blob/main/images/peddyAdoption.png)
 
 ## Table of Contents
 - [Description](#description)
 - [Features](#features)
+- [ES6 features used](#es6features)
 - [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Livelink](#livelink)
 
 ## Description
 Peddy Adoption is designed to streamline the pet adoption process by allowing users to browse through available pets, view detailed information about them, and express their interest in adoption easily through an "Adopt" button and modal.
@@ -33,12 +31,49 @@ Here are the top 5 key features of Peddy Adoption:
 5. **Footer with Subscription and Contact**:
    - The footer includes a subscription input field for users to receive updates and a contact button, enhancing user engagement and communication.
 
+## ES^ Features Useed
+Here are the top 5 key features of Peddy Adoption:
+1. **Let, Const**:
+   - I have used let variables locally and globally, and const variables for array and object declaration.
+   
+2. **For/of**:
+   - I have used the for/of function in looping.
+     
+3. **Arrow Function**:
+   - I have tried to use all the functions of my code as an arrow function.
+
+4. **Template literals**:
+   - I have used the template literals to manipulate HTML and CSS documents.
+
+5. **Seperate Operator**:
+   - I have used the seperate operator to copy pet objects.
+
 ## Screenshots
-![Peddy Adoption Screenshot](url_to_screenshot) <!-- Add relevant screenshots or GIFs to showcase your project visually -->
+Here are some screenshots of the Peddy Adoption app:
 
-## Installation
-Follow these steps to run the project locally:
+1. **Homepage**:
+   ![Homepage Screenshot](https://github.com/programming-hero-web-course2/b10a6-pet-adoption-indrojitmondal/blob/main/images/peddyAdoption.png)
+   *The homepage displays a list of pets available for adoption.*
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/peddy-adoption.git
+2. **Pet Category**:
+   ![Pet Category Screenshot](https://github.com/programming-hero-web-course2/b10a6-pet-adoption-indrojitmondal/blob/main/images/category.png)
+   *Each pet profile shows detailed information including the pet's name, age, breed, and a brief description.*
+
+2. **Pet Profile/Details**:
+   ![Pet Profile Screenshot](https://github.com/programming-hero-web-course2/b10a6-pet-adoption-indrojitmondal/blob/main/images/petprofile.png)
+   *Each pet profile shows detailed information including the pet's name, age, breed, and a brief description.*
+
+3. **Adoption Modal**:
+   ![Adoption Modal Screenshot](https://github.com/programming-hero-web-course2/b10a6-pet-adoption-indrojitmondal/blob/main/images/petadopt.png)
+   *The modal allows users to express their interest in adopting a pet.*
+
+4. **Filtered View**:
+   ![Filtered View Screenshot](https://github.com/programming-hero-web-course2/b10a6-pet-adoption-indrojitmondal/blob/main/images/filtering.png)
+   *Users can filter pets by categories for easier navigation.*
+
+5. **Footer Section**:
+   ![Footer Section Screenshot](https://github.com/programming-hero-web-course2/b10a6-pet-adoption-indrojitmondal/blob/main/images/footer.png)
+   *The footer includes a subscription input field and a contact button for user engagement.*
+
+## Livelink
+https://peddyadoption.netlify.app/
